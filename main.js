@@ -36,7 +36,11 @@ foodieApp.controller('restaurantController', function($scope, $routeParams, $htt
 	cuisines: 'Rolls, Fast Food',
 	cost: '1700',
 	hours: '1 PM to 10:30 PM(Mon-Sun)',
-	image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnUBTcmsQb7w3YlL1Nwt08t8xoxyMBpvKVkkQBkW4WAXhxsu-k'
+	image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnUBTcmsQb7w3YlL1Nwt08t8xoxyMBpvKVkkQBkW4WAXhxsu-k',
+             bestDish: {
+			name: 'butternut squash',
+			image: 'http://blog.generalmills.com/wp-content/uploads/holidayfood.squash.jpg'
+		}
 },
 {
 	name: 'dominoze',
@@ -47,7 +51,11 @@ foodieApp.controller('restaurantController', function($scope, $routeParams, $htt
 	cuisines: 'Japanese, Chinese, Thai',
 	cost: '1400',
 	hours: '  12 Noon to 11 PM (Mon-Sun)',
-	image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0TN-R0OiyveXxPe2PQkcXsYOXdOm_1IwoLmt_B-FsaIylQ0is'
+	image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0TN-R0OiyveXxPe2PQkcXsYOXdOm_1IwoLmt_B-FsaIylQ0is',
+    bestDish: {
+			name: 'dominoze Pizza',
+			image: 'http://s.eatthis-cdn.com/media/images/ext/751489189/dominos-philly-cheese-steak.jpg'
+		}
 },
 {
 	name: 'Caffe Tonino',
@@ -58,7 +66,11 @@ foodieApp.controller('restaurantController', function($scope, $routeParams, $htt
 	cuisines: 'Italian, Pizza, Cafe',
 	cost: '1000',
 	hours: '8:30Am to 9PM (Mon-Sun)',
-	image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeLzjuPjm8BslLlghSNxRKoCcgW9X_c_oAPr2cBUrUb4fo9yIPMQ'
+	image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeLzjuPjm8BslLlghSNxRKoCcgW9X_c_oAPr2cBUrUb4fo9yIPMQ',
+    bestDish: {
+			name: 'Cheesy rice balls',
+			image: 'http://hispanickitchen.com/wp-content/uploads/2016/03/Mexican-Rice-Balls.jpg'
+		}
 },
                        
      {
@@ -70,7 +82,11 @@ foodieApp.controller('restaurantController', function($scope, $routeParams, $htt
 		cuisines: 'Desert',
 		cost: '200',
 		hours: '12 Noon to 10 PM (Mon-Sun)',
-		image: 'https://tobuz.com/wp-content/uploads/2016/12/sweet-tooth-fairy-bakery-5.jpg'
+		image: 'http://greenparklutheranschool.org/wp-content/uploads/2015/08/icecream.jpg',
+         bestDish: {
+			name: 'ice cream',
+			image: 'http://www.sheddporter.org/wp-content/uploads/2015/08/ice-cream.jpg'
+		}
 	}]
 				$scope.x = 0;
 				$scope.toggle=function(){
